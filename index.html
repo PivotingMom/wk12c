@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+ <link rel="stylesheet" href="/styles/style.css" /> 
+    <title>W12C: User Authentication</title>
+  </head>
+
+  <body>
+<body class="container">
+    <form action="/home.html" class="FormContainer" id="FormContainer">
+      <h2>Login</h2>
+      <span id="error"></span>
+      <span id="loading"></span>
+      <div class="formInput">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="JohnDoe@gmail.com"
+          required
+        />
+      </div>
+      <div class="formInput">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="P@ssword"
+          required
+        />
+      </div>
+      <div class="buttonContainer">
+        <button type="submit" class="button">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
+</html>
